@@ -1,4 +1,4 @@
-## normfluodat
+## normfluodat (Early developmental stages)
 
 - This is the python version of the famous R package normfluodbf 1.5.2.
 - This python aims to reach a broader audience but silmautaneously serves as a conduit for me to understand how to publish packages in python.
