@@ -1,0 +1,29 @@
+What do i need in python to make a package?delivery system for this is normfluodbf
+Source code
+CLI control
+tests (tox or unittests, more??)
+A packaging system (setuptools, poetry)
+Documentation (docs)- the tricky part when it comes to complex documentation (tox?, sphinx, base)
+
+#MANIFEST.ini
+#setup.py should have all the files needed for the program to run (modules, pkgs, scripts, etc.)
+#clarification about files to add or exclude requires the manifest (like a shipping manifest)
+#normally i add tests, readme.rst, docs and data files for testing.
+
+#SETUPTOOLS COMPLEXITIES
+#toml, setup and cfg files provide varying levels of setup customization
+#setup is perfect for simple projects and works with cfg in simple projects
+#toml is called in when we go into more complex module setups.
+
+#REQUIREMENTS FILE
+PS C:\Users\GrandProf\Downloads\Repos_4cleanup\Repositories_AP7\Active\normfluodat> pip freeze > requirements.txt
+pip freeze > requirements.txt
+pip install -r requirements.txt
+pip uninstall -r requirements.txt
+pip install -U fastapi
+python -m pip check
+
+#after development
+#pip install pipreqs
+
+#
